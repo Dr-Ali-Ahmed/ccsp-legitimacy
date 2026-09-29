@@ -1,0 +1,6 @@
+.env
+pdfs/
+__pycache__/
+*.pyc
+*.sqlite
+.DS_Store

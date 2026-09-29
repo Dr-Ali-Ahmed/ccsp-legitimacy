@@ -1,0 +1,11 @@
+{
+ "candidates": 7077,
+ "with_abstract": 5975,
+ "by_source": {
+  "seed": 14,
+  "keyword": 1310,
+  "forward": 10136,
+  "backward": 916
+ },
+ "forward_prefiltered_out": 19350
+}

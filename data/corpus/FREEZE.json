@@ -1,0 +1,17 @@
+{
+ "unique_includes": 242,
+ "duplicates_dropped": 12,
+ "window_2017": 123,
+ "window_2018plus": 119,
+ "holdout": 18,
+ "unsure_to_fulltext": 43,
+ "unsure_excluded": 79,
+ "zotero_2017_with_doi": 153,
+ "zotero_2017_no_doi": 13,
+ "sha256": {
+  "corpus": "9f1b95a2b7adedc4351148c22a164c0929f4b8ca4a0dc9ffec84186e19b8dffa",
+  "holdout": "783deebe5232f950b55242eee98626fa04326472e455287c1d7ea3848368baf5",
+  "fulltext_queue": "f85f6f7e834c3679f98583e58f4ed9b604726173b669f5c429d691b048f09cdf",
+  "unsure_excluded": "8c246dfb7d943a8486e10b587bbc2e59fb29f4a4ea128af7bc3afde067f4c7d0"
+ }
+}

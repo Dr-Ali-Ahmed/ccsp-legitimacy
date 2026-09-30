@@ -1,0 +1,10 @@
+{
+ "screened": 1455,
+ "model": "claude-opus-5",
+ "tally": {
+  "include": 219,
+  "exclude": 730,
+  "unsure": 506
+ },
+ "seeds_not_included": []
+}

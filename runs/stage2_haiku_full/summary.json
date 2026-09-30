@@ -1,0 +1,15 @@
+{
+ "screened": 7077,
+ "model": "claude-haiku-4-5",
+ "tally": {
+  "include": 303,
+  "exclude": 5622,
+  "unsure": 1152
+ },
+ "seeds_not_included": [
+  "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+  "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+  "Fools Rush in? The Institutional Context of Industry Creation",
+  "AN INTEGRATIVE MODEL OF LEGITIMACY JUDGMENTS."
+ ]
+}

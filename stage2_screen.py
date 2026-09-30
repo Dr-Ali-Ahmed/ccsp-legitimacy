@@ -26,6 +26,9 @@ ap.add_argument("--sample", type=int, default=0, help="screen only a random samp
 ap.add_argument("--seed", type=int, default=7)
 ap.add_argument("--tag", default="")
 ap.add_argument("--direct", action="store_true", help="single requests in parallel instead of the batch queue")
+ap.add_argument("--from-run", default="", help="screen only papers a previous run marked with --decisions")
+ap.add_argument("--decisions", default="include,unsure")
+ap.add_argument("--candidates", default="runs/stage1/candidates.jsonl")
 args = ap.parse_args()
 
 RUN = ROOT / "runs" / ("stage2" + (f"_{args.tag}" if args.tag else ""))
@@ -42,8 +45,15 @@ declaration = {
 }
 audit.write("declaration", model=args.model, rule_sha=hash(rule) & 0xFFFFFFFF, sample=args.sample)
 
-cands = [json.loads(l) for l in open(ROOT / "runs" / "stage1" / "candidates.jsonl")]
-seeds = {c["id"] for c in cands if "seed" in c["sources"] and c.get("seed_role") == "ground_truth"}
+cands = [json.loads(l) for l in open(ROOT / args.candidates)]
+import csv
+gt_titles = {r["title"].lower()[:40] for r in csv.DictReader(open(ROOT / "declaration" / "seeds.csv")) if r["role"] == "ground_truth"}
+seeds = {c["id"] for c in cands if "seed" in c["sources"] and (c.get("title") or "").lower()[:40] in gt_titles}
+if args.from_run:
+    keep = {json.loads(l)["id"] for l in open(ROOT / "runs" / args.from_run / "screened.jsonl")
+            if json.loads(l)["decision"] in args.decisions.split(",")}
+    cands = [c for c in cands if c["id"] in keep or c["id"] in seeds]
+    audit.write("subset", from_run=args.from_run, decisions=args.decisions, count=len(cands))
 if args.sample:
     rng = random.Random(args.seed)
     pool = [c for c in cands if c["id"] not in seeds]

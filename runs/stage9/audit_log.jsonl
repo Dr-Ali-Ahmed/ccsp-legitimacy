@@ -1,0 +1,7 @@
+{"time": "2026-09-30T19:39:28.852119+00:00", "event": "codebook", "field": "essential_attributes", "phrasings": 533, "canonical": 62, "discarded": 31, "unmapped": 0, "usage": {"in": 10534, "out": 32335}}
+{"time": "2026-09-30T21:31:00.566937+00:00", "event": "codebook", "field": "essential_attributes", "phrasings": 533, "canonical": 28, "discarded": 30, "unmapped": 1, "usage": {"in": 10534, "out": 2684}}
+{"time": "2026-09-30T21:35:44.402211+00:00", "event": "codebook", "field": "dimensions", "phrasings": 393, "canonical": 98, "discarded": 19, "unmapped": 0, "usage": {"in": 7887, "out": 27217}}
+{"time": "2026-09-30T21:37:07.585622+00:00", "event": "codebook", "field": "rival_constructs", "phrasings": 157, "canonical": 35, "discarded": 3, "unmapped": 0, "usage": {"in": 4010, "out": 8052}}
+{"time": "2026-09-30T21:43:03.636128+00:00", "event": "codebook", "field": "antecedents", "phrasings": 436, "canonical": 76, "discarded": 2, "unmapped": 0, "usage": {"in": 10277, "out": 35531}}
+{"time": "2026-09-30T21:46:28.508665+00:00", "event": "codebook", "field": "consequences", "phrasings": 295, "canonical": 30, "discarded": 14, "unmapped": 0, "usage": {"in": 6365, "out": 18898}}
+{"time": "2026-09-30T21:50:11.744652+00:00", "event": "codebook_families", "field": "dimensions", "canonical_in": 98, "families": 16}

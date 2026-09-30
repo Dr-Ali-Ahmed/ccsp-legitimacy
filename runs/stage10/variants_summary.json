@@ -1,0 +1,230 @@
+{
+ "A_primary": {
+  "main_stop": null,
+  "freeze_stop": null,
+  "freeze_stop_by_k": {
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null
+  },
+  "material_per_batch_main": [
+   7,
+   5,
+   4,
+   7,
+   4,
+   8,
+   5,
+   5,
+   4,
+   8
+  ],
+  "quiet_batches_main": [],
+  "counter": [
+   {
+    "year": 2011,
+    "material": true,
+    "category": "dimension/definition"
+   },
+   {
+    "year": 2014,
+    "material": true,
+    "category": "dimension/definition"
+   }
+  ],
+  "orders_stop_after": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "B_families": {
+  "main_stop": null,
+  "freeze_stop": null,
+  "freeze_stop_by_k": {
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null
+  },
+  "material_per_batch_main": [
+   7,
+   5,
+   3,
+   7,
+   4,
+   7,
+   1,
+   1,
+   1,
+   3
+  ],
+  "quiet_batches_main": [],
+  "counter": [
+   {
+    "year": 2011,
+    "material": true,
+    "category": "dimension/definition"
+   },
+   {
+    "year": 2014,
+    "material": false,
+    "category": "redundant/contextual"
+   }
+  ],
+  "orders_stop_after": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "C_confirmed": {
+  "main_stop": null,
+  "freeze_stop": null,
+  "freeze_stop_by_k": {
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null
+  },
+  "material_per_batch_main": [
+   6,
+   3,
+   4,
+   7,
+   5,
+   8,
+   5,
+   3,
+   5,
+   6
+  ],
+  "quiet_batches_main": [],
+  "counter": [
+   {
+    "year": 2011,
+    "material": true,
+    "category": "dimension/definition"
+   },
+   {
+    "year": 2014,
+    "material": false,
+    "category": "redundant/contextual"
+   }
+  ],
+  "orders_stop_after": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "BC_both": {
+  "main_stop": null,
+  "freeze_stop": null,
+  "freeze_stop_by_k": {
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null
+  },
+  "material_per_batch_main": [
+   7,
+   4,
+   2,
+   7,
+   5,
+   7,
+   1,
+   3,
+   1,
+   3
+  ],
+  "quiet_batches_main": [],
+  "counter": [
+   {
+    "year": 2011,
+    "material": true,
+    "category": "dimension/definition"
+   },
+   {
+    "year": 2014,
+    "material": false,
+    "category": "redundant/contextual"
+   }
+  ],
+  "orders_stop_after": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ }
+}

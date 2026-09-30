@@ -1,0 +1,2633 @@
+{
+ "settings": {
+  "batch": 10,
+  "k": 3,
+  "tau_syn": 0.55,
+  "tau_ac": 0.1,
+  "tau_nc": 0.25,
+  "material_nomological": false
+ },
+ "n_records": 99,
+ "stop": null,
+ "batches": [
+  {
+   "batch": 1,
+   "years": [
+    1975,
+    1997
+   ],
+   "n": 10,
+   "AC": 1.0,
+   "NC": 1.0,
+   "DD_mean": 0.22,
+   "SN_mean": 0.664,
+   "material": 8,
+   "material_ids": [
+    "https://openalex.org/W2493101627",
+    "https://openalex.org/W2317475593",
+    "https://openalex.org/W2031597399",
+    "https://openalex.org/W2073142116",
+    "https://openalex.org/W2162412465",
+    "https://openalex.org/W2329063762",
+    "https://openalex.org/W2115257719",
+    "https://openalex.org/W2088624349"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 9,
+    "estimated": 12.8,
+    "coverage": 0.706
+   },
+   "state_size": {
+    "essential_attributes": 9,
+    "dimensions": 8,
+    "antecedents": 7,
+    "consequences": 6,
+    "rival_constructs": 1
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2493101627",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c5",
+       "c7",
+       "c2"
+      ],
+      "antecedents": [
+       "a33",
+       "a1"
+      ],
+      "consequences": [
+       "risk",
+       "strategy"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2317475593",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c27",
+       "c25"
+      ],
+      "dimensions": [
+       "d41",
+       "d19"
+      ],
+      "antecedents": [
+       "a3",
+       "a76"
+      ],
+      "consequences": [
+       "compliance",
+       "stability"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.8888888888888888,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2031597399",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c14",
+       "c13"
+      ],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.6666666666666666,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2087107032",
+     "source": "fulltext",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2073142116",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "antecedents": [
+       "a67"
+      ],
+      "consequences": [
+       "inst_change"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.6666666666666666,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2162412465",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d01",
+       "d02",
+       "d03"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.75,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2086527497",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a56"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.5,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2329063762",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c11"
+      ],
+      "dimensions": [
+       "d05",
+       "d66"
+      ],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.6,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2115257719",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c3"
+      ],
+      "dimensions": [
+       "d62"
+      ],
+      "consequences": [
+       "communication"
+      ],
+      "rival_constructs": [
+       "stakeholder_attributes"
+      ],
+      "antecedents": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.22018319368362427,
+     "semantic_novelty": 0.5714285714285714,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2088624349",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "antecedents": [
+       "a54"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    }
+   ]
+  },
+  {
+   "batch": 2,
+   "years": [
+    1997,
+    2002
+   ],
+   "n": 10,
+   "AC": 0.5,
+   "NC": 0.65,
+   "DD_mean": 0.478,
+   "SN_mean": 0.41,
+   "material": 5,
+   "material_ids": [
+    "https://openalex.org/W2152711479",
+    "https://openalex.org/W2088508036",
+    "https://openalex.org/W2137853923",
+    "https://openalex.org/W2007803925",
+    "https://openalex.org/W2122311065"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 14,
+    "estimated": 23.0,
+    "coverage": 0.609
+   },
+   "state_size": {
+    "essential_attributes": 14,
+    "dimensions": 18,
+    "antecedents": 20,
+    "consequences": 12,
+    "rival_constructs": 6
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2152711479",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c18"
+      ],
+      "dimensions": [
+       "d31",
+       "d32",
+       "d18",
+       "d69"
+      ],
+      "antecedents": [
+       "a13",
+       "a41",
+       "a14",
+       "a26"
+      ],
+      "consequences": [
+       "power"
+      ],
+      "rival_constructs": [
+       "power_coercion",
+       "justice"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.35832059383392334,
+     "semantic_novelty": 0.5714285714285714,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2017707396",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W1971600559",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W573283315",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2088508036",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d38",
+       "d12"
+      ],
+      "antecedents": [
+       "a71",
+       "a35"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2137853923",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d48",
+       "d63"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2007803925",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c21",
+       "c8",
+       "c23"
+      ],
+      "dimensions": [
+       "d39"
+      ],
+      "antecedents": [
+       "a36",
+       "a18",
+       "a2",
+       "a39",
+       "a74",
+       "a4"
+      ],
+      "consequences": [
+       "survival",
+       "attraction",
+       "cooperation",
+       "spillover",
+       "resources"
+      ],
+      "rival_constructs": [
+       "resources_competition",
+       "social_capital",
+       "effectiveness"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": 0.5697067975997925,
+     "semantic_novelty": 0.782608695652174,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2036599252",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2058726690",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2122311065",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c20"
+      ],
+      "dimensions": [
+       "d52"
+      ],
+      "antecedents": [
+       "a62"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": 0.5061408281326294,
+     "semantic_novelty": 0.75,
+     "disagrees_with_prior": false
+    }
+   ]
+  },
+  {
+   "batch": 3,
+   "years": [
+    2003,
+    2004
+   ],
+   "n": 10,
+   "AC": 0.182,
+   "NC": 0.231,
+   "DD_mean": 0.409,
+   "SN_mean": 0.328,
+   "material": 5,
+   "material_ids": [
+    "https://openalex.org/W1970061279",
+    "https://openalex.org/W4253131305",
+    "https://openalex.org/W2499279604",
+    "https://openalex.org/W2490080684",
+    "https://openalex.org/W2174840800"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 17,
+    "estimated": 23.0,
+    "coverage": 0.739
+   },
+   "state_size": {
+    "essential_attributes": 17,
+    "dimensions": 22,
+    "antecedents": 26,
+    "consequences": 14,
+    "rival_constructs": 8
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W1970061279",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c1",
+       "c6"
+      ],
+      "dimensions": [
+       "d10"
+      ],
+      "antecedents": [
+       "a9",
+       "a51",
+       "a29"
+      ],
+      "rival_constructs": [
+       "accountability",
+       "discourse"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": 0.4591149091720581,
+     "semantic_novelty": 0.42105263157894735,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W4253131305",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c19"
+      ],
+      "dimensions": [
+       "d64"
+      ],
+      "antecedents": [
+       "a43"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": 0.3582218885421753,
+     "semantic_novelty": 0.375,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2089630716",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2499279604",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d04"
+      ],
+      "antecedents": [
+       "a45"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.4,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2490080684",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d76"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.25,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2342617798",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "consequences": [
+       "newness"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.5,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2174840800",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "antecedents": [
+       "a46"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2505598005",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "consequences": [
+       "decoupling"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.3333333333333333,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2488571055",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2490456372",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    }
+   ]
+  },
+  {
+   "batch": 4,
+   "years": [
+    2004,
+    2007
+   ],
+   "n": 10,
+   "AC": 0.312,
+   "NC": 0.395,
+   "DD_mean": 0.325,
+   "SN_mean": 0.432,
+   "material": 8,
+   "material_ids": [
+    "https://openalex.org/W2322335692",
+    "https://openalex.org/W2170413988",
+    "https://openalex.org/W2036604521",
+    "https://openalex.org/W2144548174",
+    "https://openalex.org/W2063072312",
+    "https://openalex.org/W1765260849",
+    "https://openalex.org/W1986261919",
+    "https://openalex.org/W2111250702"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 23,
+    "estimated": 25.6,
+    "coverage": 0.898
+   },
+   "state_size": {
+    "essential_attributes": 23,
+    "dimensions": 32,
+    "antecedents": 43,
+    "consequences": 24,
+    "rival_constructs": 15
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2322335692",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c17"
+      ],
+      "dimensions": [
+       "d21",
+       "d51",
+       "d27"
+      ],
+      "antecedents": [
+       "a24",
+       "a68",
+       "a12",
+       "a70",
+       "a60"
+      ],
+      "consequences": [
+       "system_justification",
+       "status_quo"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.4042433500289917,
+     "semantic_novelty": 0.4583333333333333,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2277458364",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2170413988",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d58"
+      ],
+      "antecedents": [
+       "a42",
+       "a38",
+       "a11",
+       "a23",
+       "a52"
+      ],
+      "consequences": [
+       "member_commitment",
+       "support",
+       "efficiency"
+      ],
+      "rival_constructs": [
+       "morality"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.3145584464073181,
+     "semantic_novelty": 0.3125,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2036604521",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c15"
+      ],
+      "dimensions": [
+       "d47"
+      ],
+      "consequences": [
+       "trust"
+      ],
+      "rival_constructs": [
+       "reputation",
+       "csr"
+      ],
+      "antecedents": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.19300460815429688,
+     "semantic_novelty": 0.25,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2144548174",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c28"
+      ],
+      "dimensions": [
+       "d46",
+       "d07",
+       "d08"
+      ],
+      "antecedents": [
+       "a49",
+       "a22",
+       "a37"
+      ],
+      "consequences": [
+       "propriety"
+      ],
+      "rival_constructs": [
+       "institutional_theory",
+       "propriety_validity"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.18197274208068848,
+     "semantic_novelty": 0.37037037037037035,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2054383752",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a5"
+      ],
+      "consequences": [
+       "performance"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2063072312",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c16"
+      ],
+      "dimensions": [
+       "d13"
+      ],
+      "consequences": [
+       "policy_influence",
+       "conflict"
+      ],
+      "rival_constructs": [
+       "survival"
+      ],
+      "antecedents": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.33122169971466064,
+     "semantic_novelty": 0.2631578947368421,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1765260849",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c12",
+       "c10"
+      ],
+      "dimensions": [
+       "d42"
+      ],
+      "antecedents": [
+       "a30",
+       "a64",
+       "a73"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.3367686867713928,
+     "semantic_novelty": 0.6666666666666666,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1986261919",
+     "source": "abstract",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "rival_constructs": [
+       "authority"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2111250702",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.5141502618789673,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    }
+   ]
+  },
+  {
+   "batch": 5,
+   "years": [
+    2007,
+    2008
+   ],
+   "n": 10,
+   "AC": 0.086,
+   "NC": 0.104,
+   "DD_mean": 0.327,
+   "SN_mean": 0.081,
+   "material": 7,
+   "material_ids": [
+    "https://openalex.org/W2121384586",
+    "https://openalex.org/W2151872328",
+    "https://openalex.org/W2136728252",
+    "https://openalex.org/W2254778902",
+    "https://openalex.org/W1968318198",
+    "https://openalex.org/W3124237919",
+    "https://openalex.org/W2044449100"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 24,
+    "estimated": 24.8,
+    "coverage": 0.97
+   },
+   "state_size": {
+    "essential_attributes": 24,
+    "dimensions": 35,
+    "antecedents": 48,
+    "consequences": 26,
+    "rival_constructs": 19
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2121384586",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d35"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.69830721616745,
+     "semantic_novelty": 0.05555555555555555,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W91395620",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.537916898727417,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2151872328",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c4"
+      ],
+      "dimensions": [
+       "d90"
+      ],
+      "antecedents": [
+       "a21"
+      ],
+      "consequences": [
+       "salience"
+      ],
+      "rival_constructs": [
+       "liabilities"
+      ]
+     },
+     "level_changed": false,
+     "definition_drift": 0.1757412552833557,
+     "semantic_novelty": 0.19230769230769232,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2136728252",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d11"
+      ],
+      "antecedents": [
+       "a7",
+       "a19"
+      ],
+      "rival_constructs": [
+       "identity_culture",
+       "entrepreneurship_habitus"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.26266562938690186,
+     "semantic_novelty": 0.2631578947368421,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W3121399009",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a6"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.14285714285714285,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2254778902",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.28477245569229126,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1968318198",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.07324731349945068,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W3124237919",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2064140700",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2044449100",
+     "source": "fulltext",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "antecedents": [
+       "a27"
+      ],
+      "consequences": [
+       "identity"
+      ],
+      "rival_constructs": [
+       "institutional_logics"
+      ],
+      "essential_attributes": [],
+      "dimensions": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.25847482681274414,
+     "semantic_novelty": 0.15789473684210525,
+     "disagrees_with_prior": true
+    }
+   ]
+  },
+  {
+   "batch": 6,
+   "years": [
+    2009,
+    2011
+   ],
+   "n": 10,
+   "AC": 0.205,
+   "NC": 0.111,
+   "DD_mean": 0.279,
+   "SN_mean": 0.246,
+   "material": 8,
+   "material_ids": [
+    "https://openalex.org/W2016618063",
+    "https://openalex.org/W4409580818",
+    "https://openalex.org/W2144842064",
+    "https://openalex.org/W2038136344",
+    "https://openalex.org/W2168959432",
+    "https://openalex.org/W1973667834",
+    "https://openalex.org/W99745929",
+    "https://openalex.org/W2171182399"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 25,
+    "estimated": 25.0,
+    "coverage": 1.0
+   },
+   "state_size": {
+    "essential_attributes": 25,
+    "dimensions": 44,
+    "antecedents": 54,
+    "consequences": 27,
+    "rival_constructs": 26
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W26737296",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2016618063",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d74"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.125,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W4409580818",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d45"
+      ],
+      "antecedents": [
+       "a16",
+       "a63"
+      ],
+      "consequences": [
+       "field_dynamics"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.20680105686187744,
+     "semantic_novelty": 0.16,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2144842064",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c22"
+      ],
+      "dimensions": [
+       "d49"
+      ],
+      "antecedents": [
+       "a75"
+      ],
+      "rival_constructs": [
+       "legitimation_process"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.2303706407546997,
+     "semantic_novelty": 0.18181818181818182,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2038136344",
+     "source": "abstract",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "rival_constructs": [
+       "illegitimacy"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2168959432",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d68",
+       "d96"
+      ],
+      "antecedents": [
+       "a72"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.4152831435203552,
+     "semantic_novelty": 0.3,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W1973667834",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d65",
+       "d67"
+      ],
+      "rival_constructs": [
+       "quality",
+       "social_evaluations_bundle"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.31333279609680176,
+     "semantic_novelty": 0.19047619047619047,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W99745929",
+     "source": "abstract",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "rival_constructs": [
+       "compliance"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.17744576930999756,
+     "semantic_novelty": 0.16666666666666666,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2044671394",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2171182399",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d93",
+       "d14"
+      ],
+      "antecedents": [
+       "a50",
+       "a10"
+      ],
+      "rival_constructs": [
+       "legality",
+       "legitimacy_subtypes"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.3278266191482544,
+     "semantic_novelty": 0.3333333333333333,
+     "disagrees_with_prior": true
+    }
+   ]
+  },
+  {
+   "batch": 7,
+   "years": [
+    2011,
+    2013
+   ],
+   "n": 10,
+   "AC": 0.12,
+   "NC": 0.115,
+   "DD_mean": 0.414,
+   "SN_mean": 0.148,
+   "material": 6,
+   "material_ids": [
+    "https://openalex.org/W2088657566",
+    "https://openalex.org/W1503234468",
+    "https://openalex.org/W2139814247",
+    "https://openalex.org/W2066165063",
+    "https://openalex.org/W2499221714",
+    "https://openalex.org/W2223562046"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 26,
+    "estimated": 26.5,
+    "coverage": 0.981
+   },
+   "state_size": {
+    "essential_attributes": 26,
+    "dimensions": 50,
+    "antecedents": 61,
+    "consequences": 28,
+    "rival_constructs": 27
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2088657566",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d72"
+      ],
+      "antecedents": [
+       "a53"
+      ],
+      "consequences": [
+       "license"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.3177303075790405,
+     "semantic_novelty": 0.3333333333333333,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1503234468",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d15"
+      ],
+      "antecedents": [
+       "a55"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.4,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2139814247",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d16",
+       "d17",
+       "d57"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.29120612144470215,
+     "semantic_novelty": 0.125,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2066165063",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d40"
+      ],
+      "antecedents": [
+       "a48"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.37975776195526123,
+     "semantic_novelty": 0.06896551724137931,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2499221714",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.44552087783813477,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2223562046",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c24"
+      ],
+      "rival_constructs": [
+       "status_celebrity"
+      ],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.3729661703109741,
+     "semantic_novelty": 0.25,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2788040704",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2027832572",
+     "source": "fulltext",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a8",
+       "a40"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.6073089838027954,
+     "semantic_novelty": 0.10526315789473684,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2157938870",
+     "source": "fulltext",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a61"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.6067593097686768,
+     "semantic_novelty": 0.05555555555555555,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2145892406",
+     "source": "abstract",
+     "material": false,
+     "category": "nomological",
+     "changes": {
+      "antecedents": [
+       "a31"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.28873008489608765,
+     "semantic_novelty": 0.14285714285714285,
+     "disagrees_with_prior": false
+    }
+   ]
+  },
+  {
+   "batch": 8,
+   "years": [
+    2013,
+    2015
+   ],
+   "n": 10,
+   "AC": 0.091,
+   "NC": 0.047,
+   "DD_mean": 0.427,
+   "SN_mean": 0.15,
+   "material": 7,
+   "material_ids": [
+    "https://openalex.org/W2061883045",
+    "https://openalex.org/W1559768580",
+    "https://openalex.org/W2127487238",
+    "https://openalex.org/W2114268829",
+    "https://openalex.org/W2162260826",
+    "https://openalex.org/W2147690536",
+    "https://openalex.org/W2269609701"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 26,
+    "estimated": 26.0,
+    "coverage": 1.0
+   },
+   "state_size": {
+    "essential_attributes": 26,
+    "dimensions": 55,
+    "antecedents": 64,
+    "consequences": 29,
+    "rival_constructs": 29
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2061883045",
+     "source": "fulltext",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "consequences": [
+       "adoption"
+      ],
+      "rival_constructs": [
+       "trust",
+       "credibility"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.45455044507980347,
+     "semantic_novelty": 0.1875,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1559768580",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.4664376974105835,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2127487238",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d78",
+       "d09"
+      ],
+      "antecedents": [
+       "a25",
+       "a44"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.34201669692993164,
+     "semantic_novelty": 0.16,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2114268829",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W775698760",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.34097349643707275,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W1845650982",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2162260826",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d89"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2147690536",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d85"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.4187755584716797,
+     "semantic_novelty": 0.07692307692307693,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2214981679",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2269609701",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d26"
+      ],
+      "antecedents": [
+       "a20"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.5393859148025513,
+     "semantic_novelty": 0.07692307692307693,
+     "disagrees_with_prior": true
+    }
+   ]
+  },
+  {
+   "batch": 9,
+   "years": [
+    2015,
+    2016
+   ],
+   "n": 10,
+   "AC": 0.083,
+   "NC": 0.015,
+   "DD_mean": 0.352,
+   "SN_mean": 0.051,
+   "material": 6,
+   "material_ids": [
+    "https://openalex.org/W1871990498",
+    "https://openalex.org/W1863239449",
+    "https://openalex.org/W2566118173",
+    "https://openalex.org/W2337889490",
+    "https://openalex.org/W2294447318",
+    "https://openalex.org/W2469390755"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 26,
+    "estimated": 26.0,
+    "coverage": 1.0
+   },
+   "state_size": {
+    "essential_attributes": 26,
+    "dimensions": 60,
+    "antecedents": 65,
+    "consequences": 29,
+    "rival_constructs": 30
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2278973318",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.4202868938446045,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W1871990498",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.4680706858634949,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W1585805572",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2319335747",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.38077855110168457,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W1863239449",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d59"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.36694908142089844,
+     "semantic_novelty": 0.125,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2566118173",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d28",
+       "d29"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.16666666666666666,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2337889490",
+     "source": "abstract",
+     "material": true,
+     "category": "level",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": [],
+      "rival_constructs": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.37614279985427856,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2557600211",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": false
+    },
+    {
+     "paper_id": "https://openalex.org/W2294447318",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d81"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.21310102939605713,
+     "semantic_novelty": 0.05555555555555555,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2469390755",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d71"
+      ],
+      "antecedents": [
+       "a17"
+      ],
+      "rival_constructs": [
+       "stigma"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.237942636013031,
+     "semantic_novelty": 0.16666666666666666,
+     "disagrees_with_prior": true
+    }
+   ]
+  },
+  {
+   "batch": 10,
+   "years": [
+    2016,
+    2017
+   ],
+   "n": 9,
+   "AC": 0.155,
+   "NC": 0.03,
+   "DD_mean": 0.31,
+   "SN_mean": 0.216,
+   "material": 8,
+   "material_ids": [
+    "https://openalex.org/W2560082587",
+    "https://openalex.org/W2464032748",
+    "https://openalex.org/W2546909532",
+    "https://openalex.org/W2735628912",
+    "https://openalex.org/W4240547422",
+    "https://openalex.org/W2625962168",
+    "https://openalex.org/W2725186802",
+    "https://openalex.org/W2610978522"
+   ],
+   "quiet": false,
+   "streak": 0,
+   "chao1_attributes": {
+    "observed": 27,
+    "estimated": 27.0,
+    "coverage": 1.0
+   },
+   "state_size": {
+    "essential_attributes": 27,
+    "dimensions": 71,
+    "antecedents": 67,
+    "consequences": 29,
+    "rival_constructs": 33
+   },
+   "papers": [
+    {
+     "paper_id": "https://openalex.org/W2560082587",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "essential_attributes": [
+       "c9"
+      ],
+      "dimensions": [
+       "d34"
+      ],
+      "antecedents": [
+       "a32"
+      ]
+     },
+     "level_changed": true,
+     "definition_drift": 0.2936546802520752,
+     "semantic_novelty": 0.15789473684210525,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2464032748",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d44",
+       "d98"
+      ],
+      "antecedents": [
+       "a65"
+      ],
+      "essential_attributes": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.39423394203186035,
+     "semantic_novelty": 0.11538461538461539,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2546909532",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d80"
+      ],
+      "rival_constructs": [
+       "commitment_loyalty"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.4287732243537903,
+     "semantic_novelty": 0.08333333333333333,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2735628912",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d06",
+       "d37"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.31002891063690186,
+     "semantic_novelty": 0.1111111111111111,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W4240547422",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d22",
+       "d23",
+       "d25"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 1.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2625962168",
+     "source": "fulltext",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d77"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": 0.23930644989013672,
+     "semantic_novelty": 0.058823529411764705,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2562020581",
+     "source": "abstract",
+     "material": false,
+     "category": "redundant/contextual",
+     "changes": {
+      "essential_attributes": [],
+      "dimensions": [],
+      "rival_constructs": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": false,
+     "definition_drift": null,
+     "semantic_novelty": 0.0,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2725186802",
+     "source": "abstract",
+     "material": true,
+     "category": "dimension/definition",
+     "changes": {
+      "dimensions": [
+       "d79"
+      ],
+      "essential_attributes": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": null,
+     "semantic_novelty": 0.3333333333333333,
+     "disagrees_with_prior": true
+    },
+    {
+     "paper_id": "https://openalex.org/W2610978522",
+     "source": "fulltext",
+     "material": true,
+     "category": "boundary",
+     "changes": {
+      "rival_constructs": [
+       "slo",
+       "acceptance"
+      ],
+      "essential_attributes": [],
+      "dimensions": [],
+      "antecedents": [],
+      "consequences": []
+     },
+     "level_changed": true,
+     "definition_drift": 0.19590473175048828,
+     "semantic_novelty": 0.08,
+     "disagrees_with_prior": true
+    }
+   ]
+  }
+ ],
+ "final_state": {
+  "essential_attributes": [
+   "c5",
+   "c7",
+   "c2",
+   "c27",
+   "c25",
+   "c14",
+   "c13",
+   "c11",
+   "c3",
+   "c18",
+   "c21",
+   "c8",
+   "c23",
+   "c20",
+   "c1",
+   "c6",
+   "c19",
+   "c17",
+   "c15",
+   "c28",
+   "c16",
+   "c12",
+   "c10",
+   "c4",
+   "c22",
+   "c24",
+   "c9"
+  ],
+  "dimensions": [
+   "d41",
+   "d19",
+   "d01",
+   "d02",
+   "d03",
+   "d05",
+   "d66",
+   "d62",
+   "d31",
+   "d32",
+   "d18",
+   "d69",
+   "d38",
+   "d12",
+   "d48",
+   "d63",
+   "d39",
+   "d52",
+   "d10",
+   "d64",
+   "d04",
+   "d76",
+   "d21",
+   "d51",
+   "d27",
+   "d58",
+   "d47",
+   "d46",
+   "d07",
+   "d08",
+   "d13",
+   "d42",
+   "d35",
+   "d90",
+   "d11",
+   "d74",
+   "d45",
+   "d49",
+   "d68",
+   "d96",
+   "d65",
+   "d67",
+   "d93",
+   "d14",
+   "d72",
+   "d15",
+   "d16",
+   "d17",
+   "d57",
+   "d40",
+   "d78",
+   "d09",
+   "d89",
+   "d85",
+   "d26",
+   "d59",
+   "d28",
+   "d29",
+   "d81",
+   "d71",
+   "d34",
+   "d44",
+   "d98",
+   "d80",
+   "d06",
+   "d37",
+   "d22",
+   "d23",
+   "d25",
+   "d77",
+   "d79"
+  ],
+  "antecedents": [
+   "a33",
+   "a1",
+   "a3",
+   "a76",
+   "a67",
+   "a56",
+   "a54",
+   "a13",
+   "a41",
+   "a14",
+   "a26",
+   "a71",
+   "a35",
+   "a36",
+   "a18",
+   "a2",
+   "a39",
+   "a74",
+   "a4",
+   "a62",
+   "a9",
+   "a51",
+   "a29",
+   "a43",
+   "a45",
+   "a46",
+   "a24",
+   "a68",
+   "a12",
+   "a70",
+   "a60",
+   "a42",
+   "a38",
+   "a11",
+   "a23",
+   "a52",
+   "a49",
+   "a22",
+   "a37",
+   "a5",
+   "a30",
+   "a64",
+   "a73",
+   "a21",
+   "a7",
+   "a19",
+   "a6",
+   "a27",
+   "a16",
+   "a63",
+   "a75",
+   "a72",
+   "a50",
+   "a10",
+   "a53",
+   "a55",
+   "a48",
+   "a8",
+   "a40",
+   "a61",
+   "a31",
+   "a25",
+   "a44",
+   "a20",
+   "a17",
+   "a32",
+   "a65"
+  ],
+  "consequences": [
+   "risk",
+   "strategy",
+   "compliance",
+   "stability",
+   "inst_change",
+   "communication",
+   "power",
+   "survival",
+   "attraction",
+   "cooperation",
+   "spillover",
+   "resources",
+   "newness",
+   "decoupling",
+   "system_justification",
+   "status_quo",
+   "member_commitment",
+   "support",
+   "efficiency",
+   "trust",
+   "propriety",
+   "performance",
+   "policy_influence",
+   "conflict",
+   "salience",
+   "identity",
+   "field_dynamics",
+   "license",
+   "adoption"
+  ],
+  "rival_constructs": [
+   "stakeholder_attributes",
+   "power_coercion",
+   "justice",
+   "resources_competition",
+   "social_capital",
+   "effectiveness",
+   "accountability",
+   "discourse",
+   "morality",
+   "reputation",
+   "csr",
+   "institutional_theory",
+   "propriety_validity",
+   "survival",
+   "authority",
+   "liabilities",
+   "identity_culture",
+   "entrepreneurship_habitus",
+   "institutional_logics",
+   "legitimation_process",
+   "illegitimacy",
+   "quality",
+   "social_evaluations_bundle",
+   "compliance",
+   "legality",
+   "legitimacy_subtypes",
+   "status_celebrity",
+   "trust",
+   "credibility",
+   "stigma",
+   "commitment_loyalty",
+   "slo",
+   "acceptance"
+  ],
+  "definition": "The paper adopts Suchman's widely cited definition: legitimacy is a generalized perception or assumption that the actions of an entity are desirable, proper, or appropriate within some socially constructed system of norms, values, beliefs, and definitions; it is further treated as a multi-directional evaluation by diverse stakeholders and as a 'stock' or 'surplus' organizations accumulate.",
+  "levels": {
+   "organization": 47,
+   "group": 3,
+   "multilevel": 25,
+   "field": 2,
+   "individual": 2,
+   "society": 2
+  }
+ }
+}

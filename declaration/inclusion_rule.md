@@ -34,3 +34,7 @@ A paper is out if it only:
 ## Language
 
 English only.
+
+## Amendment 2026-09-29
+
+Meyer and Rowan 1977 and DiMaggio and Powell 1983 are reclassified from ground truth to context in `seeds.csv`. Both screening models excluded DiMaggio and Powell under this rule, with the reason that it treats legitimacy as a background driver of isomorphism rather than defining it, and that reading is correct. The two papers remain in the ground truth timeline as the pre history of the construct and remain backward chaining sources, but they are not expected members of the corpus and the seed check no longer requires them.

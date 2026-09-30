@@ -1,7 +1,7 @@
 role,year,authors,title,venue,forward_chain,doi
 ground_truth,1975,Dowling and Pfeffer,Organizational legitimacy: social values and organizational behavior,Pacific Sociological Review,yes,
-ground_truth,1977,Meyer and Rowan,Institutionalized organizations: formal structure as myth and ceremony,American Journal of Sociology,no,
-ground_truth,1983,DiMaggio and Powell,The iron cage revisited: institutional isomorphism and collective rationality in organizational fields,American Sociological Review,no,
+context,1977,Meyer and Rowan,Institutionalized organizations: formal structure as myth and ceremony,American Journal of Sociology,no,
+context,1983,DiMaggio and Powell,The iron cage revisited: institutional isomorphism and collective rationality in organizational fields,American Sociological Review,no,
 ground_truth,1990,Ashforth and Gibbs,The double-edge of organizational legitimation,Organization Science,yes,
 ground_truth,1994,Aldrich and Fiol,Fools rush in? The institutional context of industry creation,Academy of Management Review,yes,
 ground_truth,1995,Suchman,Managing legitimacy: strategic and institutional approaches,Academy of Management Review,yes,

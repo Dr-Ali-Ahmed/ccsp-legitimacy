@@ -25,6 +25,7 @@ ap.add_argument("--model", default="claude-opus-5")
 ap.add_argument("--sample", type=int, default=0, help="screen only a random sample of this size")
 ap.add_argument("--seed", type=int, default=7)
 ap.add_argument("--tag", default="")
+ap.add_argument("--direct", action="store_true", help="single requests in parallel instead of the batch queue")
 args = ap.parse_args()
 
 RUN = ROOT / "runs" / ("stage2" + (f"_{args.tag}" if args.tag else ""))
@@ -42,7 +43,7 @@ declaration = {
 audit.write("declaration", model=args.model, rule_sha=hash(rule) & 0xFFFFFFFF, sample=args.sample)
 
 cands = [json.loads(l) for l in open(ROOT / "runs" / "stage1" / "candidates.jsonl")]
-seeds = {c["id"] for c in cands if "seed" in c["sources"]}
+seeds = {c["id"] for c in cands if "seed" in c["sources"] and c.get("seed_role") == "ground_truth"}
 if args.sample:
     rng = random.Random(args.seed)
     pool = [c for c in cands if c["id"] not in seeds]
@@ -51,7 +52,19 @@ print(f"screening {len(cands)} candidates with {args.model} (seeds always includ
 
 screener = Screener(declaration, audit, model=args.model, binary=False)
 items = [(c, c.get("abstract")) for c in cands]
-verdicts = screener.screen_batch(items)
+if args.direct:
+    from concurrent.futures import ThreadPoolExecutor
+    def one(item):
+        rec, abs_ = item
+        try:
+            v, _ = screener.screen(rec, abs_)
+        except Exception as e:
+            v = {"decision": "error", "reason": f"{type(e).__name__}: {str(e)[:120]}"}
+        return rec["id"], v
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        verdicts = dict(ex.map(one, items))
+else:
+    verdicts = screener.screen_batch(items)
 
 with open(RUN / "screened.jsonl", "w") as f:
     for c in cands:

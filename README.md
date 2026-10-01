@@ -1,6 +1,6 @@
 # CCSP on legitimacy
 
-Research artifact for the Stage 1 proposal "Knowing When to Stop Reading: A Computational Test of Saturation Rules for Construct Definition," Organization Science special issue "AI Enabled Frontiers in Organizational Science."
+Research artifact for the Stage 1 proposal "Knowing When to Stop: A Computational Construct Saturation Protocol, and What Happened When We Ran It," Organization Science special issue "AI Enabled Frontiers in Organizational Science." Ali Ahmed, Jonathan Preedom, Andrew Schwarz, and Mathilda Oladimeji (author order provisional), Louisiana State University.
 
 The Computational Construct Saturation Protocol reads a construct's literature in publication order, keeps a structured record of the construct, measures whether it is still changing, proposes a stop when it is not, and then tries to break the stop. This repository runs it end to end on organizational legitimacy and reports every result, including the ones that did not work. See `results.md` for the findings and `APPENDIX.md` for the technical appendix.
 

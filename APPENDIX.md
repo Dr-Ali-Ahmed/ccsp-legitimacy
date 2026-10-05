@@ -162,7 +162,7 @@ Logged API spend for the full run: about 40 dollars, plus about 5 dollars for un
 
 # Research Artifact
 
-The prototype is a Git repository containing the complete pipeline and every log from the run reported above. Repository: https://github.com/Dr-Ali-Ahmed/ccsp-legitimacy (private during review; access is granted to the editors on request, and the repository is made public on acceptance).
+The prototype is a Git repository containing the complete pipeline and every log from the run reported above. Repository: https://github.com/Dr-Ali-Ahmed/ccsp-legitimacy (public).
 
 Contents. declaration/: the inclusion rule and the anchor list, in the commit that predates any result. data/corpus/: the frozen corpus (242 records with identifiers, metadata, and abstracts), the sealed holdout ids, the codebook, and SHA 256 hashes of each file. runs/: the audit log for every stage, one JSON line per API call or decision, and the results of every replay, variant, tolerance, order, and holdout run. ccsp/: the extraction and replay engines. Numbered stage scripts run the pipeline in order. results.md reports every table with its source run.
 

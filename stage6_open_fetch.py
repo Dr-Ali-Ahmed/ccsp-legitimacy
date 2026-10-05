@@ -5,7 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from litsearch.audit import AuditLog
 ROOT = pathlib.Path(__file__).parent; PDF = ROOT / "pdfs"; PDF.mkdir(exist_ok=True)
 audit = AuditLog(ROOT / "runs" / "stage6_fetch_audit_log.jsonl")
-S = requests.Session(); S.headers["User-Agent"] = "Mozilla/5.0 (ccsp-legitimacy research; mailto:actuary.ali@gmail.com)"
+S = requests.Session(); S.headers["User-Agent"] = "Mozilla/5.0 (ccsp-legitimacy research; mailto:aliahmed@lsu.edu)"
 rb = json.load(open(ROOT / "data/corpus/zotero_readback.json"))
 missing = rb["missing"] + rb["not_in_zotero"]
 got = {}
@@ -17,7 +17,7 @@ def save(doi, url, src):
 for doi in missing:
     ok, tried = False, []
     try:
-        r = S.get(f"https://api.unpaywall.org/v2/{doi}", params={"email": "actuary.ali@gmail.com"}, timeout=20)
+        r = S.get(f"https://api.unpaywall.org/v2/{doi}", params={"email": "aliahmed@lsu.edu"}, timeout=20)
         if r.ok:
             loc = r.json().get("best_oa_location") or {}
             if loc.get("url_for_pdf"): tried.append("unpaywall"); ok = save(doi, loc["url_for_pdf"], "unpaywall")

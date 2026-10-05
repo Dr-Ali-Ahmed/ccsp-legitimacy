@@ -7,7 +7,7 @@ from litsearch.audit import AuditLog
 ROOT = pathlib.Path(__file__).parent
 RUN = ROOT / "runs" / "stage4"; RUN.mkdir(parents=True, exist_ok=True)
 audit = AuditLog(RUN / "audit_log.jsonl")
-S = requests.Session(); S.headers["User-Agent"] = "ccsp-legitimacy (mailto:actuary.ali@gmail.com)"
+S = requests.Session(); S.headers["User-Agent"] = "ccsp-legitimacy (mailto:aliahmed@lsu.edu)"
 
 def s2(doi, title):
     try:

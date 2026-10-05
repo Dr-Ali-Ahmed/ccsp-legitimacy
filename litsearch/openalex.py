@@ -10,7 +10,7 @@ import time
 import requests
 
 BASE = "https://api.openalex.org"
-MAILTO = "actuary.ali@gmail.com"
+MAILTO = "aliahmed@lsu.edu"
 
 
 def load_openalex_key():

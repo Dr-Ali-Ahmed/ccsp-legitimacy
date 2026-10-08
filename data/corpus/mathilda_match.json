@@ -1,5 +1,15 @@
 [
  {
+  "file": "A Model of Rhetorical Legitimation- The Structure of Communication and Cognition Underlying Institutional Maintenance and Change.pdf",
+  "doi": "https://doi.org/10.5465/amr.2013.0310",
+  "title": "A Model of Rhetorical Legitimation: The Structure of Communication and Cognition Underlying Institutional Maintenance and Change",
+  "year": 2014,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 122184,
+  "needs_review": false
+ },
+ {
   "file": "A Multidimensional Model of Organizational Legitimacy- Hospital Survival in Changing Institutional Environments.pdf",
   "doi": "https://doi.org/10.2307/2393619",
   "title": "A Multidimensional Model of Organizational Legitimacy: Hospital Survival in Changing Institutional Environments",
@@ -10,6 +20,16 @@
   "needs_review": false
  },
  {
+  "file": "A RHETORICAL MODEL OF INSTITUTIONAL DECISION MAKING- THE ROLE OF RHETORIC IN THE FORMATION AND CHANGE OF LEGITIMACY JUDGMENTS.pdf",
+  "doi": "https://doi.org/10.5465/amr.2014.0330",
+  "title": "A Rhetorical Model of Institutional Decision Making: The Role of Rhetoric in the Formation and Change of Legitimacy Judgments",
+  "year": 2015,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 126688,
+  "needs_review": false
+ },
+ {
   "file": "AN INTEGRATIVE MODEL OF LEGITIMACY JUDGMENTS..pdf",
   "doi": "https://doi.org/10.5465/amr.2011.65554690",
   "title": "AN INTEGRATIVE MODEL OF LEGITIMACY JUDGMENTS.",
@@ -17,7 +37,8 @@
   "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 0,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W4230777078"
  },
  {
   "file": "Actional Legitimation- No Crisis Necessary.pdf",
@@ -27,7 +48,8 @@
   "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 0,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2137853923"
  },
  {
   "file": "Against all Odds- A Consideration of Core-Stigmatized Organizations.pdf",
@@ -60,6 +82,36 @@
   "needs_review": false
  },
  {
+  "file": "BETWEEN ISOMORPHISM AND MARKET PARTITIONING- HOW ORGANIZATIONAL COMPETENCIES AND RESOURCES FOSTER CULTURAL AND SOCIOPOLITICAL LEGITIMACY, AND PROMOTE ORGANIZATIONAL SURVIVAL.pdf",
+  "doi": "https://doi.org/10.1093/obo/9780199846740-0145",
+  "title": "Organizational Legitimacy",
+  "year": 2018,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 159900,
+  "needs_review": false
+ },
+ {
+  "file": "BIOTECHNOLOGY INNOVATION- A LEGITIMACY-BASED VIEW.pdf",
+  "doi": "https://doi.org/10.1142/s0219877013500156",
+  "title": "BIOTECHNOLOGY INNOVATION: A LEGITIMACY-BASED VIEW",
+  "year": 2013,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 66087,
+  "needs_review": false
+ },
+ {
+  "file": "Being All Things to All Customers- Building Reputation in an Institutionalized Field.pdf",
+  "doi": "https://doi.org/10.1111/1467-8551.12044",
+  "title": "Being All Things to All Customers: Building Reputation in an Institutionalized Field",
+  "year": 2013,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 99516,
+  "needs_review": false
+ },
+ {
   "file": "Beyond Survival- Achieving New Venture Growth by Building Legitimacy.pdf",
   "doi": "https://doi.org/10.5465/amr.2002.7389921",
   "title": "Beyond Survival: Achieving New Venture Growth by Building Legitimacy",
@@ -67,6 +119,27 @@
   "how": "title found on first page",
   "confidence": 0.95,
   "chars": 111684,
+  "needs_review": false
+ },
+ {
+  "file": "Building Different Levels of Legitimacy in Internationalisation- Subsidiary ‚Äì Civil Society Nexus in Institutional Void.pdf",
+  "doi": null,
+  "title": "Building Different Levels of Legitimacy in Internationalisation: Subsidiary – Civil Society Nexus in Institutional Void",
+  "year": 2016,
+  "how": "filename matches corpus title",
+  "confidence": 0.93,
+  "chars": 141279,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2566118173"
+ },
+ {
+  "file": "Changing with the Times- An Integrated View of Identity, Legitimacy, and New Venture Life Cycles.pdf",
+  "doi": "https://doi.org/10.5465/amr.2013.0496",
+  "title": "Changing with the Times: An Integrated View of Identity, Legitimacy, and New Venture Life Cycles",
+  "year": 2015,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 178329,
   "needs_review": false
  },
  {
@@ -87,7 +160,8 @@
   "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 0,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2174840800"
  },
  {
   "file": "Creating Legitimacy in Nascent Industries.pdf",
@@ -97,6 +171,16 @@
   "how": "title found on first page",
   "confidence": 0.95,
   "chars": 64747,
+  "needs_review": false
+ },
+ {
+  "file": "Delinking Legitimacies- A Pluriversal Perspective on Political CSR.pdf",
+  "doi": "https://doi.org/10.1111/joms.12173",
+  "title": "Delinking Legitimacies: A Pluriversal Perspective on Political CSR",
+  "year": 2015,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 134497,
   "needs_review": false
  },
  {
@@ -150,15 +234,45 @@
   "needs_review": false
  },
  {
+  "file": "INTRODUCTION- LEGTIMACY PROCESSES IN ORGANIZATIONS.pdf",
+  "doi": "https://doi.org/10.1093/9780197861844.003.0003",
+  "title": "Legitimacy",
+  "year": 2026,
+  "how": "short title plus year on first page",
+  "confidence": 0.8,
+  "chars": 96174,
+  "needs_review": true
+ },
+ {
+  "file": "If These Walls Could Talk- The Mutual Construction of Organizational Space and Legitimacy.pdf",
+  "doi": "https://doi.org/10.1287/orsc.2013.0858",
+  "title": "If These Walls Could Talk: The Mutual Construction of Organizational Space and Legitimacy",
+  "year": 2013,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 118890,
+  "needs_review": false
+ },
+ {
   "file": "In search of explanations for corporate social reporting (CSR)- an attempt to revisit legitimacy theory.pdf",
   "doi": null,
   "title": "In search of explanations for corporate social reporting (CSR): an attempt to revisit legitimacy theory",
   "year": 2008,
-  "how": "filename matches no-DOI corpus title",
+  "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 163090,
   "needs_review": false,
   "openalex_id": "https://openalex.org/W2104826432"
+ },
+ {
+  "file": "Input and Output Legitimacy of Multi-Stakeholder Initiatives.pdf",
+  "doi": "https://doi.org/10.5840/beq201222333",
+  "title": "Input and Output Legitimacy of Multi-Stakeholder Initiatives",
+  "year": 2012,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 114195,
+  "needs_review": false
  },
  {
   "file": "Interpartner Legitimacy in the Alliance Development Process_.pdf",
@@ -175,11 +289,32 @@
   "doi": null,
   "title": "Intersecting Three Muddy Roads: Stability, Legitimacy, and Change",
   "year": 2011,
-  "how": "filename matches no-DOI corpus title",
+  "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 67189,
   "needs_review": false,
   "openalex_id": "https://openalex.org/W284692629"
+ },
+ {
+  "file": "Language Consistency and Trading Volume- An Information Theory of Legitimacy.pdf",
+  "doi": "https://doi.org/10.2139/ssrn.2726410",
+  "title": "Language Consistency and Trading Volume: An Information Theory of Legitimacy",
+  "year": 2016,
+  "how": "filename matches corpus title",
+  "confidence": 1.0,
+  "chars": 85229,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2266707952"
+ },
+ {
+  "file": "Legitimacy Chains- Legitimation of Compliance with International Courts Across Social Fields.pdf",
+  "doi": "https://doi.org/10.1111/lasr.12181",
+  "title": "Legitimacy Chains: Legitimation of Compliance with International Courts Across Social Fields",
+  "year": 2016,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 94630,
+  "needs_review": false
  },
  {
   "file": "Legitimacy and Collective Action.pdf",
@@ -212,6 +347,46 @@
   "needs_review": false
  },
  {
+  "file": "Legitimacy in institutional theory- Three essays on social judgments in a globalized world.pdf",
+  "doi": "https://doi.org/10.5465/annals.2015.0101",
+  "title": "Legitimacy",
+  "year": 2017,
+  "how": "title similarity",
+  "confidence": 1.0,
+  "chars": 388390,
+  "needs_review": false
+ },
+ {
+  "file": "Legitimacy of Global Accounting Standards- A New Analytical Framework.pdf",
+  "doi": "https://doi.org/10.1093/obo/9780199846740-0145",
+  "title": "Organizational Legitimacy",
+  "year": 2018,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 46229,
+  "needs_review": false
+ },
+ {
+  "file": "Legitimacy-as-Feeling- How Affect Leads to Vertical Legitimacy Spillovers in Transnational Governance .pdf",
+  "doi": "https://doi.org/10.1111/joms.12071",
+  "title": "Legitimacy‐as‐Feeling: How Affect Leads to Vertical Legitimacy Spillovers in Transnational Governance",
+  "year": 2013,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 141411,
+  "needs_review": false
+ },
+ {
+  "file": "Legitimacy.pdf",
+  "doi": "https://doi.org/10.5465/annals.2015.0101",
+  "title": "Legitimacy",
+  "year": 2017,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 180853,
+  "needs_review": false
+ },
+ {
   "file": "Legitimate Distinctiveness and the Entrepreneurial Identity- Influence on Investor Judgments of New Venture Plausibility..pdf",
   "doi": "https://doi.org/10.5465/amr.2011.61031809",
   "title": "Legitimate Distinctiveness and the Entrepreneurial Identity: Influence on Investor Judgments of New Venture Plausibility.",
@@ -232,6 +407,17 @@
   "needs_review": false
  },
  {
+  "file": "Legitimation of New Ventures- A Review and Research Programme.pdf",
+  "doi": "https://doi.org/10.1111/joms.12077",
+  "title": "Legitimation of New Ventures: A Review and Research Programme",
+  "year": 2014,
+  "how": "filename matches corpus title",
+  "confidence": 1.0,
+  "chars": 13175,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W1845650982"
+ },
+ {
   "file": "Legitimation, Endorsement, and Stability.pdf",
   "doi": "https://doi.org/10.1093/sf/64.3.620",
   "title": "Legitimation, Endorsement, and Stability",
@@ -249,6 +435,16 @@
   "how": "title found on first page",
   "confidence": 0.95,
   "chars": 134708,
+  "needs_review": false
+ },
+ {
+  "file": "Material legitimacy.pdf",
+  "doi": "https://doi.org/10.1108/jaoc-06-2013-0057",
+  "title": "Material legitimacy",
+  "year": 2015,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 102844,
   "needs_review": false
  },
  {
@@ -273,13 +469,13 @@
  },
  {
   "file": "Organizational Ecology and Industrial Economics- a Comment on Geroski.pdf",
-  "doi": "https://doi.org/10.1093/icc/10.2.541",
-  "title": "Organizational Ecology and Industrial Economics: a Comment on Geroski",
-  "year": 2001,
-  "how": "filename matches corpus title",
-  "confidence": 1.0,
+  "doi": "https://doi.org/10.1093/obo/9780199846740-0145",
+  "title": "Organizational Legitimacy",
+  "year": 2018,
+  "how": "title similarity",
+  "confidence": 0.6,
   "chars": 23339,
-  "needs_review": false
+  "needs_review": true
  },
  {
   "file": "Organizational Legitimacy Under Conditions of Complexity- The Case of the Multinational Enterprise.pdf",
@@ -299,7 +495,39 @@
   "how": "filename matches corpus title",
   "confidence": 0.92,
   "chars": 0,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2115257719"
+ },
+ {
+  "file": "Organizational Legitimacy in Entrepreneurial Contexts- Hybridity, Crowdfunding, and Social Entrepreneurship.pdf",
+  "doi": "https://doi.org/10.5465/annals.2015.0101",
+  "title": "Legitimacy",
+  "year": 2017,
+  "how": "short title plus year on first page",
+  "confidence": 0.8,
+  "chars": 229781,
+  "needs_review": true
+ },
+ {
+  "file": "Organizational Legitimacy- Different Sources – Different Outcomes_ .pdf",
+  "doi": null,
+  "title": "Organizational Legitimacy: Different Sources - Different Outcomes?",
+  "year": 2013,
+  "how": "filename matches corpus title",
+  "confidence": 1.0,
+  "chars": 467594,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W112523848"
+ },
+ {
+  "file": "Organizational Legitimacy- Six Key Questions.pdf",
+  "doi": "https://doi.org/10.5465/annals.2015.0101",
+  "title": "Legitimacy",
+  "year": 2017,
+  "how": "short title plus year on first page",
+  "confidence": 0.8,
+  "chars": 123136,
+  "needs_review": true
  },
  {
   "file": "Organizational Legitimacy- Social Values and Organizational Behavior .pdf",
@@ -309,6 +537,26 @@
   "how": "title found on first page",
   "confidence": 0.95,
   "chars": 35297,
+  "needs_review": false
+ },
+ {
+  "file": "PEACE BUILDING WITHOUT USING THE WORD “PEACE”.pdf",
+  "doi": "https://doi.org/10.1080/14672715.2012.711976",
+  "title": "PEACE BUILDING WITHOUT USING THE WORD “PEACE”",
+  "year": 2012,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 92124,
+  "needs_review": false
+ },
+ {
+  "file": "Positive Institutional Work- Exploring Institutional Work Through the Lens of Positive Organizational Scholarship.pdf",
+  "doi": "https://doi.org/10.5465/amr.2013.0188",
+  "title": "Positive Institutional Work: Exploring Institutional Work Through the Lens of Positive Organizational Scholarship",
+  "year": 2014,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 191774,
   "needs_review": false
  },
  {
@@ -326,11 +574,41 @@
   "doi": null,
   "title": "Processes of Legitimation: The University of Phoenix and Its Institutional Environment",
   "year": 2006,
-  "how": "filename matches no-DOI corpus title",
+  "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 652085,
   "needs_review": false,
   "openalex_id": "https://openalex.org/W173997596"
+ },
+ {
+  "file": "Reputation and Legitimacy- Accreditation and Rankings to Assess Organizations.pdf",
+  "doi": "https://doi.org/10.1002/9781118335529.ch42",
+  "title": "Reputation and Legitimacy: Accreditation and Rankings to Assess Organizations",
+  "year": 2013,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 85960,
+  "needs_review": false
+ },
+ {
+  "file": "Research on police legitimacy- the state of the art.pdf",
+  "doi": "https://doi.org/10.1108/pijpsm-05-2017-0062",
+  "title": "Research on police legitimacy: the state of the art",
+  "year": 2017,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 196579,
+  "needs_review": false
+ },
+ {
+  "file": "Rethinking New Venture's Cognitive Legitimacy- An Experimental Study.pdf",
+  "doi": "https://doi.org/10.1002/sres.2281",
+  "title": "Rethinking New Venture's Cognitive Legitimacy: An Experimental Study",
+  "year": 2014,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 52974,
+  "needs_review": false
  },
  {
   "file": "Rules, Resources, and Legitimacy Processes- Some Implications for Social Conflict, Order, and Change.pdf",
@@ -367,9 +645,41 @@
   "doi": "https://doi.org/10.5840/beq20031312",
   "title": "Stakeholder Legitimacy",
   "year": 2003,
+  "how": "short title plus year on first page",
+  "confidence": 0.8,
+  "chars": 57190,
+  "needs_review": true
+ },
+ {
+  "file": "TOWARD AN INTEGRATIVE RESEARCH FRAMEWORK FOR NEW VENTURE LEGITIMACY JUDGMENT FORMATION.pdf",
+  "doi": null,
+  "title": "Toward an Integrative Research Framework for New Venture Legitimacy Judgement Formation",
+  "year": 2015,
+  "how": "filename matches corpus title",
+  "confidence": 0.91,
+  "chars": 90809,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W1795192397"
+ },
+ {
+  "file": "The Institutionalization of Corporate Reputation .pdf",
+  "doi": "https://doi.org/10.1002/9781118335529.ch20",
+  "title": "The Institutionalization of Corporate Reputation",
+  "year": 2013,
   "how": "filename matches corpus title",
   "confidence": 1.0,
-  "chars": 57190,
+  "chars": 5156,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W1544848961"
+ },
+ {
+  "file": "The Legitimacy of Festivals and Their Stakeholders- Concepts and Propositions.pdf",
+  "doi": "https://doi.org/10.3727/152599515x14297053839539",
+  "title": "The Legitimacy of Festivals and Their Stakeholders: Concepts and Propositions",
+  "year": 2015,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 95275,
   "needs_review": false
  },
  {
@@ -397,7 +707,7 @@
   "doi": null,
   "title": "The Psychology of Legitimacy: Implications for Organizational Leadership and Change",
   "year": 2010,
-  "how": "filename matches no-DOI corpus title",
+  "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 281040,
   "needs_review": false,
@@ -411,7 +721,8 @@
   "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 9314,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2129156634"
  },
  {
   "file": "The Strategy-Legitimacy Nexus- A Thick Description.pdf",
@@ -464,6 +775,16 @@
   "needs_review": false
  },
  {
+  "file": "The macro and the micro of legitimacy- Towards a multilevel theory of the legitimacy process.pdf",
+  "doi": "https://doi.org/10.1093/obo/9780199846740-0145",
+  "title": "Organizational Legitimacy",
+  "year": 2018,
+  "how": "title found on first page",
+  "confidence": 0.95,
+  "chars": 171011,
+  "needs_review": false
+ },
+ {
   "file": "Theory Building and Cheap Talk About Legitimation- Reply to Baum and Powell.pdf",
   "doi": "https://doi.org/10.2307/2096293",
   "title": "Theory Building and Cheap Talk About Legitimation: Reply to Baum and Powell",
@@ -494,6 +815,17 @@
   "needs_review": false
  },
  {
+  "file": "Towards a legitimate compromise_.pdf",
+  "doi": "https://doi.org/10.1108/aaaj-04-2013-1309",
+  "title": "Towards a legitimate compromise?",
+  "year": 2014,
+  "how": "filename matches corpus title",
+  "confidence": 1.0,
+  "chars": 187872,
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W1485048736"
+ },
+ {
   "file": "Vertical Legitimacy Spillovers in Transnational Governance- Affect as the Microfoundation of Spillover Strength and Valence.pdf",
   "doi": "https://doi.org/10.1093/obo/9780199846740-0145",
   "title": "Organizational Legitimacy",
@@ -504,6 +836,16 @@
   "needs_review": false
  },
  {
+  "file": "When Orders of Worth Clash- Negotiating Legitimacy in Situations of Moral Multiplexity.pdf",
+  "doi": "https://doi.org/10.1108/s0733-558x20170000052002",
+  "title": "When Orders of Worth Clash: Negotiating Legitimacy in Situations of Moral Multiplexity",
+  "year": 2017,
+  "how": "doi on first page",
+  "confidence": 1.0,
+  "chars": 124287,
+  "needs_review": false
+ },
+ {
   "file": "You Say Illegal, I Say Legitimate- Entrepreneurship in the Informal Economy.pdf",
   "doi": "https://doi.org/10.5465/amr.2009.40632826",
   "title": "You Say Illegal, I Say Legitimate: Entrepreneurship in the Informal Economy",
@@ -511,6 +853,7 @@
   "how": "filename matches corpus title",
   "confidence": 1.0,
   "chars": 96642,
-  "needs_review": false
+  "needs_review": false,
+  "openalex_id": "https://openalex.org/W2146475189"
  }
 ]
